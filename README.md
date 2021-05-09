@@ -20,4 +20,4 @@ O método **VerificaGol();** Verifica se foi gol ou não. Se a função receber 
 		
 O método **Comemora();** Se for gol essa função faz a simulação comemorando o gol.
 
-O pacote Teste possui a classe JogadorTest que contém o teste com JUnit, é utilizado o método **SituacaoJogador();** para fazer uma simulação de quando o jogador irá jogar ou não.
+O pacote Teste possui a classe JogadorTest que contém o teste com JUnit, é utilizado o método **SituacaoJogador();** que retorna se o jogador irá jogar ou não.
