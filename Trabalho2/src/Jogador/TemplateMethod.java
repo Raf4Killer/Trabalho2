@@ -21,12 +21,12 @@ public abstract class TemplateMethod {
 	public final void ExecutaAcao() {
 		
 		//verifica se irá joga	
-		
 		if(VaiJogar() == false) {
 			System.out.println("O jogador não irá jogar!");
 			System.out.println("Finalizando programa...");
 			System.exit(0);
 		}
+		
 		//Informa se o jogador irá ou não jogar
 		SituacaoJogador(true);
 		

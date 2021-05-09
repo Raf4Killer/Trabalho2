@@ -100,8 +100,9 @@ public class Jogador extends TemplateMethod{
 			return altura;
 		}
 		
+		
 		/***
-	 	 *Indica a altura do jogador
+	 	 *@param altura Indica a altura do jogador
 	 	 *Irá setar a altura do jogador 
 	 	 */
 		public void setAltura(float altura) {
@@ -112,8 +113,9 @@ public class Jogador extends TemplateMethod{
 			return nome;
 		}
 		
+		
 		/***
-	 	 *Indica o nome do jogador
+	 	 *@param nome Indica o nome do jogador
 	 	 * Irá setar o nome do jogador 
 	 	 */
 		public void setNome(String nome) {
@@ -126,7 +128,7 @@ public class Jogador extends TemplateMethod{
 		
 		
 		/***
-	 	 *Indica a velocidade do jogador
+	 	 *@param velocidade Indica a velocidade do jogador
 	 	 * Irá setar a velocidade do jogador 
 	 	 */
 		public void setVelocidade(float velocidade) {
@@ -138,7 +140,7 @@ public class Jogador extends TemplateMethod{
 		}
 		
 		/***
-	 	 *Indica a energia do jogador
+	 	 *@param energia Indica a energia do jogador
 	 	 *  Irá setar a energia do jogador 
 	 	 */
 		public void setEnergia(float energia) {
@@ -159,14 +161,14 @@ public class Jogador extends TemplateMethod{
 							   "Energia: "+  getEnergia()+ "\n"
 							   );
 		}
+		
 		/***
 		 * @param v valor de entrada <br>
 		 * 
 		 * Se for <b> true </b>, o jogador irá jogar, caso <b>false </b> o jogador não irá jogar
 		 * 
-		 * @return <b> verifica </b> recebe parametro <b> v <b> e retorna verdadeiro ou falso
-		 */
-		
+		 * @return <b> verifica </b> recebe parametro <b> v </b> e retorna verdadeiro ou falso
+		 */		
 		//imprime a situação do jogador	
 		public boolean SituacaoJogador(boolean v) {
 			this.verifica = v;
