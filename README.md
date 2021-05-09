@@ -1,7 +1,4 @@
-# Trabalho2
-
-
-**Trabalho 2 de POO2.**
+# Trabalho 2 de POO2
 
 O Programa faz uma simulação em texto de um jogador se preparando para entrar em campo e realizar suas funções de jogador.
 
