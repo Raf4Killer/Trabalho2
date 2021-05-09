@@ -19,3 +19,5 @@ O método **Chutar();** Faz uma simulação do jogador chutando a bola.
 O método **VerificaGol();** Verifica se foi gol ou não. Se a função receber true foi gol, se receber false, não foi gol.
 		
 O método **Comemora();** Se for gol essa função faz a simulação comemorando o gol.
+
+O pacote Teste possui a classe JogadorTest que contém o teste com JUnit, é utilizado o método **SituacaoJogador();** para fazer uma simulação de quando o jogador irá jogar ou não.
