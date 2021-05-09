@@ -32,5 +32,14 @@ class JogadorTest {
 		
 	}
 	
+	@Test
+	void testSituacaoJogador3() {
+		System.out.println("Teste 2 : ");
+		final boolean ResultadoEsperado = false;
+		final boolean resultado = j.SituacaoJogador(false);
+		Assert.assertEquals(ResultadoEsperado, resultado);
+		
+	}
+	
 	
 }

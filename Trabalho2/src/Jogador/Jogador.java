@@ -6,7 +6,7 @@ package Jogador;
  * @version 0.1
  * 
  */
-public class Jogador extends Acao{
+public class Jogador extends TemplateMethod{
 	
 	public float altura;
 	public String nome;
